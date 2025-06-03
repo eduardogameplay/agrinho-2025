@@ -52,7 +52,7 @@ header p {
   opacity: 0.9;
 }
 
-/* ===== Seções ===== */
+
 section {
   padding: 3rem 1rem;
   text-align: center;
@@ -70,7 +70,6 @@ section#conexao p {
   margin: 0 auto;
 }
 
-/* ===== Cards ===== */
 #cards {
   display: grid;
   gap: 2rem;
@@ -101,7 +100,6 @@ section#conexao p {
   padding: 0 1rem 1.5rem;
 }
 
-/* ===== Rodapé ===== */
 footer {
   background: var(--green-600);
   color: #fff;
