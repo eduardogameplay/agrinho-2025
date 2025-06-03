@@ -22,13 +22,6 @@ body {
   line-height: 1.6;
 }
 
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .wrapper {
   max-width: 1080px;
   margin: 0 auto;
