@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Reset padrão */
 * {
   margin: 0;
   padding: 0;
@@ -6,17 +6,17 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  background-color: #f4fdf5;
   color: #333;
 }
 
+/* Cabeçalho */
 header {
-  background: linear-gradient(to right, #6fbf73, #3f9e4d);
+  background-color: #4caf50;
   color: white;
-  padding: 2rem;
   text-align: center;
+  padding: 2rem 1rem;
 }
 
 header h1 {
@@ -28,60 +28,64 @@ header p {
   font-size: 1.2rem;
 }
 
+/* Seções */
 .intro, .conexao {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
   text-align: center;
 }
 
 .intro h2, .conexao h2 {
-  font-size: 2rem;
-  color: #3f9e4d;
+  color: #388e3c;
   margin-bottom: 1rem;
 }
 
+/* Cartões */
 .cards {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  padding: 2rem;
+  justify-content: center;
   gap: 2rem;
-  background-color: #eef9f0;
+  padding: 2rem;
+  background-color: #e8f5e9;
 }
 
 .card {
   background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   overflow: hidden;
-  max-width: 300px;
-  text-align: center;
-  transition: transform 0.3s ease;
+  width: 300px;
+  transition: transform 0.3s;
 }
 
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .card img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
 }
 
 .card h3 {
   color: #2e7d32;
   margin: 1rem 0 0.5rem;
+  text-align: center;
 }
 
 .card p {
   padding: 0 1rem 1rem;
+  text-align: center;
 }
 
+/* Rodapé */
 footer {
-  background-color: #3f9e4d;
+  background-color: #388e3c;
   color: white;
   text-align: center;
   padding: 1rem;
+  margin-top: 2rem;
 }
