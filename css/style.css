@@ -107,3 +107,14 @@ footer {
   padding: 1.5rem 1rem;
   font-size: 0.875rem;
 }
+
+.quintal {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(99, 72, 72);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
