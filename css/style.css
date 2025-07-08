@@ -119,3 +119,10 @@ footer {
     text-align: center;
 }
 
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+
