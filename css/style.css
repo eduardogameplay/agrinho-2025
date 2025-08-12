@@ -112,7 +112,7 @@ footer {
 
 
 .imagem {
-   display: flex;
+   display: flex;width: 120px;
 }
  
 
