@@ -109,10 +109,7 @@ footer {
 }
 
 
-.coluna {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .imagem {
    display: flex;
