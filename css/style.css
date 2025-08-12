@@ -114,4 +114,9 @@ footer {
   flex-direction: column;
 }
 
+.imagem {
+   display: flex;
+}
+ 
+
 
