@@ -28,7 +28,6 @@ body {
   padding: 0 1rem;
 }
 
-/* ===== Cabeçalho ===== */
 header {
   background: linear-gradient(135deg, var(--green-400), var(--green-600));
   color: #fff;
